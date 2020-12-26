@@ -14,3 +14,34 @@
 .input:focus {
   outline: none;
 }
+
+.button {
+  position: relative;
+  min-width: 16px;
+  max-width: 16px;
+  height: 16px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.button:before,
+.button:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 4px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%) rotate(90deg);
+  background-color: #f3f9ff;
+}
+
+.button:after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.button:hover {
+  transform: scale(1.1);
+}

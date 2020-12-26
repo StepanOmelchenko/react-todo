@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b2d8344-1b3b-422a-9263-470d5b861f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/List.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/New/New.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/New/New.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/New/New.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/New/New.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/New/New.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/New/New.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

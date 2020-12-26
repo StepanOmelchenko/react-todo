@@ -9,7 +9,7 @@ const New = ({add, input, setInput}) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      <button onClick={add}>+</button>
+      <div className={style.button} onClick={add}/>
     </div>
   );
 }
