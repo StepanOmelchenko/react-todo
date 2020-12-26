@@ -1,0 +1,49 @@
+.item {
+  padding: 4px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f9ff;
+  padding: 8px;
+  color: #333333;
+  border-radius: 8px;
+}
+
+.text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 90%;
+}
+
+.remove {
+  display: block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  transition: transform .2s;
+}
+
+.remove:before,
+.remove:after {
+  content: '';
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 4px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: #333333;
+}
+
+.remove:after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.remove:hover {
+  transform: scale(1.1);
+}

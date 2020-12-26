@@ -1,0 +1,14 @@
+.tasks {
+  max-height: 70%;
+  overflow-y: auto;
+  width: 320px;
+  padding: 16px;
+  border-radius: 8px;
+  background: linear-gradient(90deg,#17191c,#2B3034);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
